@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">    <link href="css/styles.css" rel="stylesheet" type="text/css">
+        <script src="js/jquery-1.11.3.min.js"></script>
+        <script src="js/scripts.js"></script>
+        <title>Triangle Wrangler</title>
+    </head>
+    <body>
+        <div class = "container">
+            <h1>Triangle Wrangler!</h1>
+            <p>Find out what kind of triangle you are dealing with!</p>
+            <form id="triangle">
+                <div class="form group">
+                    <label for="triangle">Enter the lengths for the sides of your special triangle:</label>
+                    <input id="side1" type="number" step="1" min="1">
+                    <input id="side2" type="number" step="1" min="1">
+                    <input id="side3" type="number" step="1" min="1">
+            </div>
+
+                <button type="submit" class="btn">wrangle it!</button>
+            </form>
+
+            <div id="result">
+                <p>Your unruly triangle is <span class="type"></span> triangle!</p>
+    </body>
+</html>
